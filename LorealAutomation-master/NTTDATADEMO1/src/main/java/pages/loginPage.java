@@ -37,6 +37,7 @@ public class loginPage {
 		String dest=reusableCodes.getValue("config.properties", "DESTINATION");
 		System.out.println("Loading loginpage class");
 		System.out.println("calling loginpage class");
+		System.out.println("calling loginpage class");
 		input_source.sendKeys(source);
 		input_destination.sendKeys(dest);
 		input_date.click();
